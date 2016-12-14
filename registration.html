@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>Все о компьютере</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" href="res/css/style.css" type="text/css" media="screen, projection" />
+    <script src="res/js/formValidation.js"></script>
+	</head>
+	<body>
+    <div id="header">
+      <div id="title">
+				<a class="siteName" href="index.html">Все о компьютере</a>
+			</div>
+      <div id="login">
+        <a class="list" href="login.html">Вход</a>
+        <a class="list" href="registration.html">Регистрация</a>
+      </div>
+    </div>
+    <div class="back">
+        <table class="table">
+          <th class="th">
+            Регистрация
+          </th>
+          <tr>
+            <td class="td">
+              <form onsubmit="return submit1()" action="index.html">
+                <div class="wraper">
+                  <div class="field">
+                    <label for="name">Имя</label>
+                    <input type="text" value="" name="name" id="name" onblur="chekName()" onfocus="removeColor('name')"/>
+										<p id="name_err"></p>
+                  </div>
+                  <div class="field">
+                    <label for="surname">Фамилия</label>
+                    <input type="text" value="" name="surname" id="surname" onblur="chekSurname()" onfocus="removeColor('surname')"/>
+                  </div>
+                  <div class="field">
+                    <label for="login">Логин</label>
+                    <input type="text" value="" name="login" id="loginField" onblur="chekLogin()" onfocus="removeColor('loginField')"/>
+                  </div>
+                  <div class="field">
+                    <label for="password">Пароль</label>
+                    <input type="password" value="" name="password" id="password" onblur="chekPassword()" onfocus="removeColor('password')"/>
+                  </div>
+                  <div class="field">
+                    <label for="confirmPassword">Подтвердите пароль</label>
+                    <input type="password" value="" name="confirmPassword" id="confirmPassword"  onblur="chekConfirmPassword()" onfocus="removeColor('confirmPassword')"/>
+                  </div>
+                  <div class="field">
+                    <label for="phone">Номер сотового телефона</label>
+                    <input type="text" value="" name="phone" id="phone" onblur="chekPhone()" onfocus="removeColor('phone')"/>
+                  </div>
+                  <div class="field">
+                    <label for="email">Электронная почта</label>
+                    <input type="email" value="" name="email" id="email"  onfocus="removeColor('email')"/>
+                  </div>
+                  <div class="field">
+                    <label for="gender">Пол</label>
+                    <input id="male" type="radio" name="gender" value="male" />Муж.
+                    <input id="female" type="radio" name="gender" value="female"/>Жен.
+                  </div>
+                  <p>
+                    <input type="button" value="Отмена" class="cancel"/>
+                    <input type="submit" value="Регистрация" class="submit"/>
+                  </p>
+                </div>
+              </form>
+            </td>
+          </tr>
+        </table>
+    </div>
+  </body>
+</html>

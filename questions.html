@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Все о компьютере</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" href="res/css/style.css" type="text/css" media="screen, projection" />
+		<script src="res/js/askQuestions.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div id="title">
+					<a class="siteName" href="index.html">Все о компьютере</a>
+				</div>
+				<div id="login">
+					<a class="list" href="login.html">Вход</a>
+					<a class="list" href="registration.html">Регистрация</a>
+				</div>
+			</div>
+			<div id="menu">
+				<div id="menu_header">Menu</div>
+				<ul>
+					<li>
+						<a href="index.html">Главная</a>
+					</li>
+					<li>
+						<a href="powerSupplyUnit.html">Блок питания</a>
+					</li>
+					<li>
+						<a href="motherBoard.html">Материнская плата</a>
+					</li>
+					<li>
+						<a href="CPU.html">Процессор</a>
+					</li>
+					<li>
+						<a href="RAM.html">Оперативная память</a>
+					</li>
+					<li>
+						<a href="videoCard.html">Видео карта</a>
+					</li>
+					<li>
+						<a href="hardDrive.html">Жесткий диск</a>
+					</li>
+          <li>
+						<a href="audioCard.html">Аудио карта</a>
+					</li>
+          <li>
+						<a href="periphery.html">Перифирия</a>
+					</li>
+          <li>
+						<a href="BIOS.html">BIOS</a>
+					</li>
+					<li>
+						<a href="questions.html">Задать вопрос</a>
+					</li>
+					<li>
+						<div class="tooltip">
+							<a href="test.html" t>Тест</a>
+							<span class="tooltiptext">Пройти тестировани по знанию компьютера</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="wraper">
+				<h1>Вопросы</h1>
+        <div id="div_quest">
+          <div class="userQuest">
+            Как включать компьютер?
+            <hr />
+            <div class="rightAlign">user1@yandex.ru</div>
+          </div>
+          <div class="userQuest">
+            У меня была такая программа, которая позволяла элементарно изменять формат любого изображения, но при чистке я случайно стёр её. И не помню откуда я её взял и как она называлась. Помогите, что-нибудь попроще.
+            <hr />
+            <div class="rightAlign">user2@yandex.ru</div>
+          </div>
+          <div class="userQuest">
+            Воспроизведение звука искажённое, везде, даже на Skype, тембр голоса и мелодии завышенные, как детские. Можно попробовать настроить звуковую схему. Для этого нажать на динамик в панели задач правой кнопкой мыши и выбрать «Устройства воспроизведения», затем на вкладке «Звуки» выбрать звуковую схему «По&nbsp;умолчанию».
+            <hr />
+            <div class="rightAlign">user3@yandex.ru</div>
+          </div>
+        </div>
+				<div id="div_ask">
+          <label float="left" for="email">E-mail: </label>
+          <input type="email" id="email" />
+          <br />
+          Ваш вопрос:<br />
+          <textarea id="text" onkeyup="ResizeTextArea(this, 6)" cols="80" rows="5"></textarea>
+          <br />
+          <input  type="button" class="submit" onclick="mysubmit()" value="Отправить" />
+        </div>
+			</div>
+			<div id="footer">
+				<div id="copyright">© 2016 EAA SSAU</div>
+				<div id="contact" align="right">epifantsev.a.a@yandex.ru</div>
+			</div>
+		</div>
+	</body>
+</html>

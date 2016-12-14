@@ -1,0 +1,269 @@
+html,body{
+	margin:0;
+	height: 1px;
+	min-height: 100%;
+	background:#4b4a45;
+}
+.table{
+	border-collapse: collapse;
+	margin: auto;
+}
+.table, .td{
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+}
+.wraper{
+	margin-top: 0px;
+	margin-left:190px;
+	min-height: 88%;
+	height: auto;
+	background: white;
+	padding: 10px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -30px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+p{
+	text-align: justify;
+	text-indent: 1.5em;
+	margin-bottom:10px;
+}
+caption{
+	text-align: right;
+	caption-side: bottom;
+}
+h1, h2{
+	margin-top: 5px;
+	margin-bottom: 18px;
+	text-indent: 0.7em;
+}
+.bold{
+	font-weight: bold;
+}
+#menu ul{
+	list-style-type: none;
+	padding-left: 20px;
+}
+#menu li{
+	padding-bottom:2px;
+}
+li.padding{
+	margin-left: 275px;
+}
+#menu a{
+	color: #EEDFAC;
+}
+#menu a:link{
+	text-decoration: none;
+}
+#menu a:hover{
+	text-decoration: underline;
+}
+.back{
+	padding-top: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: white;
+	min-height: 80%;
+}
+.back{
+
+}
+a.list{
+	font-size: 15px;
+	margin-top: 13px;
+	margin-right: 10px;
+	float: right;
+	padding-right: 4px;
+}
+.block{
+	padding: 10px;
+}
+.normalText{
+	font-weight: normal;
+	text-align: left;
+}
+#container{
+	margin:0 auto;
+	min-height: 100%;
+	height: 100%;
+}
+#header{
+	height:6%;
+	background: #4b4a45;
+}
+#menu{
+	float: left;
+	height: 88%;
+	width:190px;
+	background:#4b4a45;
+}
+#content{
+	margin-top: 0px;
+	margin-left:190px;
+	height: 85%;
+	background: white;
+}
+#footer{
+	height:18px;
+}
+#title{
+	color: white;
+	font-size:25pt;
+	float: left;
+	padding-left: 20px;
+}
+#login{
+	background:#EEDFAC;
+	width:170px;
+	height:100%;
+	float: right;
+}
+#copyright{
+	color: white;
+	background:linear-gradient(to right, #4b4a45, #EEDFAC);
+	float: left;
+	width:75%;
+	height: 100%;
+}
+#contact{
+	width:25%;
+	background:#EEDFAC;
+	float: right;
+	height: 100%;
+}
+#menu_header{
+	text-align: center;
+	background:#EEDFAC;
+	height: 20px;
+}
+.back .field{
+  clear:both;
+  text-align:right;
+  line-height:40px;
+}
+.back .testField{
+  clear:both;
+  text-align:center;
+  line-height:40px;
+}
+.back label{
+  float:left;
+  padding-right: 10px;
+}
+.myButton{
+	background-color: #EEDFAC;
+	border-radius: 6px;
+	padding: 8px;
+	font-weight: bold;
+}
+.back .wraper{
+  float: left;
+	margin-left: 0px;
+	background-color: #4b4a45;
+	color: #EEDFAC;
+}
+.back .table{
+	vertical-align: middle;
+	border-collapse: collapse;
+}
+.back .th{
+	font-size: 28px;
+}
+.quiz{
+	text-align: left;
+}
+.back .table, .back .td{
+	background-color:#EEDFAC;
+	border: 0px solid black;
+	text-align: c;
+	padding: 5px;
+  border-radius: 6px;
+}
+.back p{
+  float: right;
+}
+.back .cancel{
+  border-radius: 6px;
+  background-color: #FFFFF0;
+  color: black;
+  padding: 10px;
+}
+.back .cancel:hover{
+    border: 1px solid black;
+}
+.back .submit{
+  border-radius: 6px;
+  background-color: #008CBA;;
+  color: white;
+  padding: 10px;
+}
+#div_ask{
+	margin-left: 300px;
+}
+#div_ask .submit{
+  border-radius: 6px;
+  background-color: #008CBA;;
+  color: white;
+  padding: 8px;
+	margin-left: 473px;
+}
+.userQuest{
+
+}
+.rightAlign{
+		text-align: right;
+}
+
+#div_quest .userQuest{
+	border-left: 1px solid gray;
+	border-bottom: 1px solid gray;
+	background-color: #EEDFAC;
+	border-radius: 6px;
+	padding: 10px;
+	margin-bottom: 30px;
+	text-indent: 0em;
+}
+.siteName{
+	text-decoration: none;
+	color: white;
+}
+
+.testInput{
+	float: left;
+}
