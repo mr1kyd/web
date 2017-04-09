@@ -8,6 +8,10 @@ html,body{
 	border-collapse: collapse;
 	margin: auto;
 }
+.myCursor:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
 .table, .td{
 	border: 1px solid black;
 	text-align: center;
@@ -235,6 +239,7 @@ a.list{
 }
 #div_ask{
 	margin-left: 300px;
+	padding-top: 15px;
 }
 #div_ask .submit{
   border-radius: 6px;

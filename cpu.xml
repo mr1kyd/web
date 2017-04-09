@@ -1,0 +1,76 @@
+<p>ЦП обладает набором характеристик, характеризующих его производительность. Основные характеристики представленны в таблице 1.</p>
+<table class="table">
+  <caption>Таблица 1</caption>
+  <tr>
+    <td class="td">
+      Производитель
+    </td>
+    <td class="td">
+      AMD, Intel
+    </td>
+  </tr>
+  <tr>
+    <td class="td">
+      Модель
+    </td>
+    <td class="td">
+      Phenom II, Athlon II, Core i5, Core i7, Core2 DUO
+    </td>
+  </tr>
+  <tr>
+    <td class="td">
+      Тактовая частота
+    </td>
+    <td class="td">
+      3.4GHz, 3,2Ghz, 3.0Ггц
+    </td>
+  </tr>
+  <tr>
+    <td class="td">
+      Системная шина (FSB)
+    </td>
+    <td class="td">
+      4000 Mhz, 3200 МГц
+    </td>
+  </tr>
+  <tr>
+    <td class="td">
+      Кеш-память
+    </td>
+    <td class="td">
+      L2:4x512Kb L3:6Mb, 4Mb
+    </td>
+  </tr>
+  <tr>
+    <td class="td">
+      Сокет
+    </td>
+    <td class="td">
+      АM2, АM3, socket1156, socket1366
+    </td>
+  </tr>
+  <tr>
+    <td class="td">
+      Технологический процесс
+    </td>
+    <td class="td">
+      45nm, 32nm
+    </td>
+  </tr>
+  <tr>
+    <td class="td">
+      Термопакет (TDP)
+    </td>
+    <td class="td">
+      125W, 73W
+    </td>
+  </tr>
+  <tr>
+    <td class="td">
+      С кулером или без
+    </td>
+    <td class="td">
+      Box, Tray
+    </td>
+  </tr>
+</table>

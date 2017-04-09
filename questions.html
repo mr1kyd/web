@@ -5,6 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<link rel="stylesheet" href="res/css/style.css" type="text/css" media="screen, projection" />
 		<script src="res/js/askQuestions.js"></script>
+		<script src="res/js/AJAX.js"></script>
 	</head>
 	<body>
 		<div id="container">
@@ -80,6 +81,9 @@
             <div class="rightAlign">user3@yandex.ru</div>
           </div>
         </div>
+				<center>
+					<input type="button" onclick="questionAJAX()" value="Загрузить еще" />
+				</center>
 				<div id="div_ask">
           <label float="left" for="email">E-mail: </label>
           <input type="email" id="email" />
